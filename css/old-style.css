@@ -1,0 +1,70 @@
+header {
+  
+}
+
+.intro {
+  font-family: Arial;
+  text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:link {
+  color: saddlebrown;
+}
+
+a:visited, a:hover, a:active {
+  color: dimgray;
+}
+
+.Gigi, .Zoe {
+  align: center;
+  font-family: sans-serif;
+  }
+
+  .gigi-image {
+  background-image: url(http://i68.tinypic.com/117d2m0.jpg);
+  width:713px;
+  height:350px;
+  background-size: cover;
+  z-index: 1;
+  }
+
+  #zoe-image {
+
+  }
+
+#gigi-image-overlay {
+  color: white;
+  position: relative;
+  top: 85%;
+  left: 85%;
+  z-index: 2;
+  font-size: 40px;
+  }
+
+
+table {
+  height: 40%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+      }
+th {
+  vertical-align: center;
+  text-align:center;
+  background-color: black;
+  color: white;
+  width: 600px
+}
+
+td {
+  vertical-align: top;
+  text-align: top left;
+        }
+
+td ul {
+  vertical-align: text-top;
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "pwscratchymedium";
+    src: url("../resources/pwscratchy-webfont.woff2") format("woff2"),
+         url("..resources/pwscratchy-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: sienna;
+}
+
+header {
+  font-family: "pwscratchymedium", sans-serif;
+  font-size: 14pt;
+  display: inline-block;
+  background-color: black;
+  position:fixed;
+  width: 100%
+  }
+
+  header table {
+    display: inline-block;
+    text-align: left;
+    color: white;
+  }
+
+  header table a {
+    color: cornsilk;
+  }
+
+  .main {
+    width: 100%
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+
+    }
+
+    .main h1 {
+      text-align: center;
+      padding-bottom: 20px;
+      color: tan;
+    }
+
+    #gigi {
+      margin: 0 auto;
+
+    }
+
+    .blogger-container  {
+      width: 400px;
+      background-color: tan;
+      border: 1px solid cornsilk;
+      height: 200px;
+      margin: 0 auto;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+    }
+
+  .blogger-container h3 {
+    font-family: "pwscratchymedium";
+    font-size: 20pt;
+}
